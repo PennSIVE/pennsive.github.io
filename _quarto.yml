@@ -32,6 +32,7 @@ website:
     - gpu-computing.markdown
     - rpackages.markdown
     - python.md
+    - article.qmd
     - contributing.qmd
 
 format:
