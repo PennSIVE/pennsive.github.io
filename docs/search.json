@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Penn Statistics in Imaging and Visualization Endeavor (PennSIVE) Center",
+    "section": "",
+    "text": "Welcome to the Penn Statistics in Imaging and Visualization Endeavor (PennSIVE) Center\nThis is the internal website for PennSIVE tutorials and best practices.\nIf you just got cluster access, first setup your SSH keys:\nssh-keygen # if you've never done this or aren't sure; you can accept all the defaults, and don't need a passphrase\nssh-copy-id user@cluster\n\nThe CBICA wiki (UPHS VPN required) is a good resource for CUBIC-specific tutorials, and Ali’s blog offers lots of useful PMACS-specific information.\nAlso see the PennLINC internal website which offers many useful tutorials and tips."
+  }
+]
