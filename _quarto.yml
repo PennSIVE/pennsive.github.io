@@ -20,6 +20,8 @@ website:
             url:  https://github.com/PennSIVE/pennsive.github.io/issues/new
   sidebar:
     style: "docked"
+    content:
+      - contributing.qmd
     
 
 format:
