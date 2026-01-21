@@ -1,0 +1,40 @@
+# Contributing to this Wiki
+
+Thank you for considering making a contribution to the PennSIVE wiki! In this article, you will find a streamlined set of steps that you will need to follow in order to contribute your own article to the PennSIVE wiki website.   
+The requirements to follow this tutorial are: 
+
+- A [GitHub account](https://github.com/join).  
+- Have [Quarto](https://quarto.org/docs/get-started/) installed (comes with the latest version of Rstudio).
+- Have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed.  
+- Basic [markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) knowledge.  
+
+In essence, making a contribution to this Wiki will involve writing or editing Markdown files and running a few git commands to integrate your changes with the existing wiki. Don't worry you got this! 
+
+## 1. Fork and clone the wiki repo
+
+The first step to collaborate on any project that is hosted on GitHub (e.g., this wiki) involves "forking". Forking a GitHub repository (or repo for short) allows you to create your own personal copy of a project under your GitHub account. This forking mechanism allows you to back up changes you make to this wiki's code without affecting the original repository. 
+
+To fork this wiki's source code, follow these steps:  
+1. Navigate to `https://github.com/pennsive/pennsive.github.io` while logged in to GitHub.  
+2. Click `Fork` on the upper right hand corner. ![How to Fork](images/contributing/forking.png)  
+  
+After forking, you can check your personal copy of the wiki's source code under this URL: `https://github.com/<your-username>/pennsive.github.io`.  
+3. Then, clone your copy of the repository from GitHub onto your local machine.  In a [Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac), run: 
+
+```sh
+git clone https://github.com/<your-username>/pennsive.github.io
+```
+
+This will create a folder called `pennsive.github.io` at the location where you run this command.
+
+## 2. Link your local copy to the `upstream` repository
+
+GitHub allows you to have remote copies of your git repositories. By convention, your personal **remote** copy of a git repository is called `origin`. For projects you do not own (e.g., forked projects), there is one more remote copy that you should track: the original repository, which by convention is called `upstream`.  
+To track the original PennSIVE wiki repository as the `upstream` repository, you can run:
+
+```sh
+cd pennsive.github.io # to get into the project folder
+git remote add upstream https://github.com/pennsive/pennsive.github.io.git
+```
+
+More coming soon...
