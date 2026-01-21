@@ -19,24 +19,9 @@ website:
           - text: Report a Bug
             url:  https://github.com/PennSIVE/pennsive.github.io/issues/new
   sidebar:
-   style: "docked"
-   contents:
-    - environments.markdown
-    - projects.markdown
-    - heudiconv.markdown
-    - flywheel.markdown
-    - pipelines.markdown
-    - reproducibility.markdown
-    - workflows.markdown
-    - cluster_intro.markdown
-    - bash_startup.qmd
-    - cluster_rstudio.qmd
-    - gpu-computing.markdown
-    - rpackages.markdown
-    - python.md
-    - pennsive_neuro_pip_instructions.qmd
-    - containers.qmd
-    - contributing.qmd
+    style: "docked"
+    contents: # ADD NEW PAGES HERE
+      - contributing.qmd
 
 format:
   html:
