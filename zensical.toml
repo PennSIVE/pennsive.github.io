@@ -1,0 +1,90 @@
+[project]
+site_name = "PennSIVE Wiki"
+site_url = "https://pennsive.github.io/"
+site_description = "Internal wiki for PennSIVE tutorials and best practices."
+
+nav = [
+  { "Welcome" = "index.md" },
+  { "Admin" = [
+    { "Onboarding" = "onboarding.md" },
+    { "General Admin Details" = "general_admin.md" },
+    { "Conference/Travel" = "conference_travel.md" },
+  ] },
+  { "Computing Basics" = [
+    { "Bash, Cluster Environment, and Passwordless SSH Setup" = "environment_setup.md" },
+    { "Hosts and Queues on the HPC Cluster" = "bhosts_wiki.md" },
+    { "Submitting Jobs" = "wiki-jobs.md" },
+    { "Using screen on the Cluster" = "cluster-screen.md" },
+    { "Cluster Organization" = "cluster_organization.md" },
+    { "R, Python, and Bash in Neuroimaging Analysis" = "programming_overview_wiki.md" },
+    { "Containers" = "containers.md" },
+    { "Git / GitHub Basics" = "github.md" },
+    { "Using IDEs on Cluster" = "wiki-ides.md" },
+    { "Brain Visualization on Cluster" = "brain_visualization.md" },
+  ] },
+  { "PennSIVE Pipelines/Software" = [
+    "pennsive_pipelines.md",
+    { "BIDS" = "pennsive_bids.md" },
+    { "MIMoSA" = "mimosa.md" },
+    { "CVS" = "cvs.md" },
+    { "APRL" = "aprl.md" },
+    { "ALPaCA" = "alpaca.md" },
+    { "Lesion Count" = "lesion_count.md" },
+    { "Radiomic Feature" = "radiomic_feature.md" },
+    { "T1/T2" = "t1t2.md" },
+    { "FreeSurfer" = "freesurfer.md" },
+    { "JLF" = "jlf.md" },
+    { "Skullstripping" = "skullstripping.md" },
+    { "BrainQC" = "brainqc.md" },
+  ] },
+  { "Additional Resources" = [
+    { "BIDS" = "bids.md" },
+    { "fMRIPrep" = "fmriprep.md" },
+    { "Neurohacking" = "neurohacking.md" },
+    { "Surface-based Neuroimaging Analyses" = "surface_data_overview.md" },
+    { "Data Visualization Tools and Presentation Templates" = "data-visualization-and-presentation-templates.md" },
+    { "Project Management Resources" = "project_management.md" },
+    { "Cluster Packages" = "cluster_packages.md" },
+    { "Personal Website" = "personal_website.md" },
+    { "Other Helpful Resources" = "other_resources.md" },
+  ] },
+  { "Contributing" = "contributing.md" },
+  { "Source" = "https://github.com/PennSIVE/pennsive.github.io" },
+]
+
+extra_css = ["stylesheets/extra.css"]
+
+[project.markdown_extensions]
+attr_list = {}
+md_in_html = {}
+admonition = {}
+pymdownx.details = {}
+pymdownx.superfences = {}
+pymdownx.tabbed.alternate_style = true
+pymdownx.tasklist.custom_checkbox = true
+
+[project.markdown_extensions.toc]
+toc_depth = "2-3"
+
+[project.theme]
+logo = "images/logo.png"
+custom_dir = "overrides"
+features = [
+  "navigation.tabs",
+  "navigation.indexes",
+  "content.code.copy",
+]
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"

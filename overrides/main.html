@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page.meta.author or page.meta.date %}
+    <div class="page-meta">
+      {% if page.meta.author %}<span class="page-meta__author">By {{ page.meta.author }}</span>{% endif %}
+      {% if page.meta.author and page.meta.date %}<span class="page-meta__sep">&middot;</span>{% endif %}
+      {% if page.meta.date %}<span class="page-meta__date">Last updated {{ page.meta.date }}</span>{% endif %}
+    </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}

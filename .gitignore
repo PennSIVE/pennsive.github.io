@@ -1,11 +1,4 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+site/
 .DS_Store
-.Rproj.user
-
-/.quarto/
-
-**/*.quarto_ipynb
+.Rproj.user/
+.quarto/
