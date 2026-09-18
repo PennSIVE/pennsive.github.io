@@ -41,6 +41,7 @@ nav = [
     { "BIDS" = "bids.md" },
     { "fMRIPrep" = "fmriprep.md" },
     { "Neurohacking" = "neurohacking.md" },
+    { "PennSIVE ComBat Models" = "combat_overview.md"},
     { "Surface-based Neuroimaging Analyses" = "surface_data_overview.md" },
     { "Data Visualization Tools and Presentation Templates" = "data-visualization-and-presentation-templates.md" },
     { "Project Management Resources" = "project_management.md" },
