@@ -94,6 +94,7 @@ hide:
     <li><a href="bids.md">BIDS</a></li>
     <li><a href="fmriprep.md">fMRIPrep</a></li>
     <li><a href="neurohacking.md">Neurohacking</a></li>
+    <li><a href="combat_overview.md">PennSIVE ComBat Overview</a></li>
     <li><a href="surface_data_overview.md">Surface-based Neuroimaging Analyses</a></li>
     <li><a href="data-visualization-and-presentation-templates.md">Data Visualization Tools and Presentation Templates</a></li>
     <li><a href="project_management.md">Project Management Resources</a></li>
