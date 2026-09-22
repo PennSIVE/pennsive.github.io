@@ -153,11 +153,11 @@ Click on "create pull request" after you have selected the correct branches:
 
 ![Select branches](images/contributing/select-branches.png)
 
-In the **Reviewers** section of the sidebar, add the **PennSIVE/wiki** team so the wiki group is notified (this isn't automatic, so please don't skip it). If you can't see the button to select a reviewer, please let the wiki team know via Slack.
-
 Describe your changes, and submit:
 
-![Select reviewers](images/contributing/select-reviewer-create-pr.png)
+![Creating a pull request](images/contributing/select-reviewer-create-pr.png)
+
+The **wiki** team will automatically be requested as a reviewer once you submit. If it doesn't show up under **Reviewers** in the sidebar, let the wiki team know via Slack.
 
 If you need to make changes before the PR gets reviewed, just commit and push to your branch again. The PR will update automatically.
 
