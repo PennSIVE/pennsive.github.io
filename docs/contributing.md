@@ -153,7 +153,7 @@ Click on "create pull request" after you have selected the correct branches:
 
 ![Select branches](images/contributing/select-branches.png)
 
-In the **Reviewers** section of the sidebar, add the **PennSIVE/wiki** team so the wiki group is notified (this isn't automatic, so please don't skip it).
+In the **Reviewers** section of the sidebar, add the **PennSIVE/wiki** team so the wiki group is notified (this isn't automatic, so please don't skip it). If you can't see the button to select a reviewer, please let the wiki team know via Slack.
 
 Describe your changes, and submit:
 
