@@ -45,16 +45,18 @@ Please include the following with email requests to the PennSIVE Coordinator. <b
 <br>
 
 ## Poster Printing
-1. Option 1: Email David Hampel at posters@slidemakers.net please include-
--	Poster size: 
--	Material: 
--	Delivery date: ~48 hour turnaround 
--	Name: 
--	Org: PennSIVE, University of Pennsylvania
--	Delivery address: Richards Building Basement Tower D Suite 001, 3700 Hamilton Walk, Philadelphia PA, 19104
--	Please include your telephone contact & cc’ PI for the payment confirmation. Administration person will be standing by for invoice! 
+Option 1: Email David Hampel at posters@slidemakers.net please include- <br>
+
+- Poster size: 
+- Material: 
+- Delivery date: ~48 hour turnaround 
+- Name: 
+- Org: PennSIVE, University of Pennsylvania
+- Delivery address: Richards Building Basement Tower D Suite 001, 3700 Hamilton Walk, Philadelphia PA, 19104
+- Please include your telephone contact & cc’ PI for the payment confirmation. Administration person will be standing by for invoice! 
  
-2. Option 2: Biotech Commons (on-campus) 
--	2 business days and/ or 5 business days pickup/delivery- [please see](https://guides.library.upenn.edu/pp/cost)
--	Fill out [this form](https://upenn.co1.qualtrics.com/jfe/form/SV_3aNUhJJDWoo0Ueh) with all the corresponding information for printing 
+Option 2: Biotech Commons (on-campus) <br>
+
+- 2 business days and/ or 5 business days pickup/delivery- [please see](https://guides.library.upenn.edu/pp/cost)
+- Fill out [this form](https://upenn.co1.qualtrics.com/jfe/form/SV_3aNUhJJDWoo0Ueh) with all the corresponding information for printing 
 
